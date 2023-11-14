@@ -27,7 +27,6 @@ export default function ConversationPage() {
 
   return (
     <div>
-      hello
       <Heading
         title="Conversation"
         description="Out most advanced conversation model"
@@ -75,7 +74,7 @@ export default function ConversationPage() {
                 className="col-span-12 lg:col-span-2 w-full"
                 disabled={isLoading}
               >
-                Generate
+                Generat
               </Button>
             </form>
           </Form>
